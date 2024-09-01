@@ -7,7 +7,7 @@ ENV DB_USER="test"
 ENV DB_PASSWORD="1234" 
 ENV DB_NAME="employees" 
 ENV DB_PORT="5432" 
-ENV ALLOWED_ORIGINS="add your public ip of instance:3000"
+ENV ALLOWED_ORIGINS="http://add your public ip of instance:3000"
 
 # Set Go environment variables
 ENV GOPATH=/go
