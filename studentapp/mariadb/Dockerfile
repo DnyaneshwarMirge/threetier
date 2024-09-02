@@ -1,6 +1,6 @@
 FROM  mysql:latest
 LABEL app="mysql"
-LABEL Author="d"
+LABEL Author="Karan"
 
 RUN chown -R mysql:root /var/lib/mysql/
 
@@ -26,9 +26,9 @@ EXPOSE 3306
 
 
 # HOW to Run the container
-docker run -d -p 3306:3306 --name mysql-container \
--e MYSQL_DATABASE=studentapp \
--e MYSQL_USER=admin \
--e MYSQL_PASSWORD=1234 \
--e MYSQL_ROOT_PASSWORD=1234 \
-<b0b94682be6b>
+# docker run -d -p 3306:3306 --name mysql-container \
+# -e MYSQL_DATABASE=studentapp \
+# -e MYSQL_USER=mayur \
+# -e MYSQL_PASSWORD=1234 \
+# -e MYSQL_ROOT_PASSWORD=1234 \
+# <imageid>
