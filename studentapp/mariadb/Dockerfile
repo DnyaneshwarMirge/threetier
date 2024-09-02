@@ -26,9 +26,9 @@ EXPOSE 3306
 
 
 # HOW to Run the container
-# docker run -d -p 3306:3306 --name mysql-container \
-# -e MYSQL_DATABASE=studentapp \
-# -e MYSQL_USER=mayur \
-# -e MYSQL_PASSWORD=1234 \
-# -e MYSQL_ROOT_PASSWORD=1234 \
-# <imageid>
+docker run -d -p 3306:3306 --name mysql-container \
+-e MYSQL_DATABASE=studentapp \
+-e MYSQL_USER=admin \
+-e MYSQL_PASSWORD=1234 \
+-e MYSQL_ROOT_PASSWORD=1234 \
+<b0b94682be6b>
