@@ -2,12 +2,12 @@
 FROM ubuntu:latest
 
 # Set environment variables for non-interactive apt installs
-ENV DB_HOST="add your public ip of instance" 
+ENV DB_HOST="public_ip" 
 ENV DB_USER="test" 
 ENV DB_PASSWORD="1234" 
 ENV DB_NAME="employees" 
 ENV DB_PORT="5432" 
-ENV ALLOWED_ORIGINS="http://add your public ip of instance:3000"
+ENV ALLOWED_ORIGINS="http://public_ip:3000"
 
 # Set Go environment variables
 ENV GOPATH=/go
